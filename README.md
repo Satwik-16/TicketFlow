@@ -1,4 +1,4 @@
-# Apexon AI Agent
+# TicketFlow - Agentic ITSM Orchestrator |
 
 An Enterprise-Grade Agentic IT Helpdesk Accelerator, engineered over a reactive asynchronous stack utilizing LangGraph, FastAPI, and Next.js.
 
@@ -77,12 +77,12 @@ Leveraging PostgreSQL checkpoint savers via `AsyncConnectionPool`, the agent aut
 ### Bootstrapping Infrastructure
 Construct a `.env` in the active project root adhering to strict schemas:
 ```env
-DB_USER=apexon_admin
-DB_PASSWORD=apexon_secure_2026
-DB_NAME=apexon_ai_db
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
 DB_HOST=localhost
 DB_PORT=5432
-DATABASE_URL=postgresql://apexon_admin:apexon_secure_2026@localhost:5432/apexon_ai_db
+DATABASE_URL=
 GROQ_API_KEY=YOUR_STATIC_GROQ_KEY
 ```
 
