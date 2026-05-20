@@ -1,9 +1,9 @@
-# TicketFlow - Agentic ITSM Orchestrator |
+# TicketFlow - Agentic ITSM Orchestrator 
 
 An Enterprise-Grade Agentic IT Helpdesk Accelerator, engineered over a reactive asynchronous stack utilizing LangGraph, FastAPI, and Next.js.
 
 ## Executive Summary
-The Apexon AI Agent is a strict, autonomous triage system structured specifically for internal enterprise IT operations. Leveraging Groq LLM integrations, it achieves near-deterministic classification via strictly enforced Pydantic guardrails. The architecture implements native State Garbage Collection, ensuring only rigorously validated queries successfully write Checkpoint data into the PostgreSQL infrastructure, protecting Service Desk queues from hallucinated, non-IT tickets.
+The  AI Agent is a strict, autonomous triage system structured specifically for internal enterprise IT operations. Leveraging Groq LLM integrations, it achieves near-deterministic classification via strictly enforced Pydantic guardrails. The architecture implements native State Garbage Collection, ensuring only rigorously validated queries successfully write Checkpoint data into the PostgreSQL infrastructure, protecting Service Desk queues from hallucinated, non-IT tickets.
 
 ---
 
