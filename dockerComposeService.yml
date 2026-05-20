@@ -1,5 +1,5 @@
 # =============================================================================
-# Apexon AI Agent — Docker Compose Service
+# TicketFlow AI Agent — Docker Compose Service
 # =============================================================================
 # Spins up PostgreSQL 16 for local development.
 # All credentials are injected via environment variables — zero hardcoded secrets.
@@ -13,7 +13,7 @@
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: apexon_ai_postgres
+    container_name: ticketflow_ai_postgres
     restart: unless-stopped
 
     # -------------------------------------------------------------------------
@@ -31,7 +31,7 @@ services:
     # Persistent volume ensures data survives container restarts.
     # -------------------------------------------------------------------------
     volumes:
-      - apexon_pg_data:/var/lib/postgresql/data
+      - ticketflow_pg_data:/var/lib/postgresql/data
 
     # -------------------------------------------------------------------------
     # Health check ensures downstream services wait for Postgres readiness.
